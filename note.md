@@ -466,4 +466,3 @@ $\nabla f(x)=[\frac{\partial f(x)}{\partial x_1},\frac{\partial f(x)}{\partial x
 根据设计好的模型，系统会构建一个<mark>计算图(computational graph)</mark>,来跟踪计算哪些数据通过哪些组合来产生输出。
 
 <mark>反向传播(backpropagate)</mark>意味着跟踪整个计算图填充关于每个参数的偏导数。
-
